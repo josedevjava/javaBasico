@@ -1,7 +1,7 @@
 import javax.swing.*;
 import javax.swing.UIManager;
 
-public class Loops {
+public class AdivinaUnNumer {
     public static void main(String[] args) {
 
         try {
