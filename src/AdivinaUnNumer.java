@@ -21,7 +21,7 @@ public class AdivinaUnNumer {
             String texto = JOptionPane.showInputDialog(null,
                     "Ingrese un numero del 1 al 100.");
 
-            if (texto == null) {
+            if (texto == null) { // Para que no me de error al cerrar el programa
 
                 JOptionPane.showMessageDialog(null, "Canselaste el programa");
                 return;
