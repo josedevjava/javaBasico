@@ -21,13 +21,13 @@ public class AdivinaUnNumer {
             String texto = JOptionPane.showInputDialog(null,
                     "Ingrese un numero del 1 al 100.");
 
-            if (texto == null) { // Para que no me de error al cerrar el programa
+            if (texto == null) { // Para que no me de error al cerrar el programa //
 
                 JOptionPane.showMessageDialog(null, "Canselaste el programa");
                 return;
             }
 
-            intento = Integer.parseInt(texto);
+            intento = Integer.parseInt(texto); // para recivir los datos del input en donde pido los datos//
 
             if (intento > numeroSecreto){
 
