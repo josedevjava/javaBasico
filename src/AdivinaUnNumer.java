@@ -1,5 +1,4 @@
 import javax.swing.*;
-import javax.swing.UIManager;
 
 public class AdivinaUnNumer {
     public static void main(String[] args) {
@@ -29,12 +28,12 @@ public class AdivinaUnNumer {
 
             intento = Integer.parseInt(texto); // para recivir los datos del input en donde pido los datos//
 
-            if (intento > numeroSecreto){
+            if (intento > numeroSecreto) {
 
                 JOptionPane.showMessageDialog(null,
                         "El numero secreto es menor que el ingresado");
 
-            } else if (intento < numeroSecreto){
+            } else if (intento < numeroSecreto) {
 
                 JOptionPane.showMessageDialog(null,
                         "El numero secreto es mayor que el ingresado");
